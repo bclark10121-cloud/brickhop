@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brickhop</title><link rel="icon" href="icon.png">
+<meta name="description" content="Brickhop. Run, hop and find every secret. For Android and the browser.">
+<style>
+:root{--ink:#1f2a3a;--accent:#c46a3c;--warm:#e8b531;--card:#fffdf6;--line:rgba(0,0,0,.14);--btn-ink:#fff}
+*{box-sizing:border-box}html{background:#e9f6ff}
+body{margin:0;min-height:100vh;background:linear-gradient(#5fb4ee 0%,#a8dcf7 30%,#ffe9c2 60%,#e9f6ff 80%);background-color:#e9f6ff;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:880px;margin:0 auto;padding:18px 20px 60px}
+.back{font-size:14px;opacity:.85}.back a{color:inherit;text-decoration:none}.back a:hover{text-decoration:underline}
+header{text-align:center;margin-top:8px;color:#1f2a3a}.back{color:#1f2a3a}
+.icon{width:84px;height:84px;border-radius:20px;box-shadow:0 6px 18px rgba(0,0,0,.25);display:block;margin:6px auto 0}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,8vw,62px);letter-spacing:2px;margin:12px 0 0;color:#c46a3c;line-height:1.1;}
+.tag{letter-spacing:4px;text-transform:uppercase;font-size:12px;opacity:.85;margin:6px 0 4px}
+.hook{font-family:Georgia,"Times New Roman",serif;font-size:20px;color:var(--accent);margin:6px 0 0}
+.lead{font-size:18px;max-width:660px;margin:14px auto 22px;text-wrap:balance}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+a.btn{display:inline-block;padding:13px 22px;border-radius:14px;font-weight:700;text-decoration:none;border:1px solid rgba(0,0,0,.2)}
+a.primary{background:var(--accent);color:var(--btn-ink)}a.ghost{background:var(--card);color:var(--ink);border-color:var(--line)}
+a.btn:focus-visible,.shots a:focus-visible{outline:3px solid var(--warm);outline-offset:2px}
+.note{font-size:13px;opacity:.85;text-align:center}.note a{color:inherit}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0 8px}
+.shots img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--line);display:block}
+h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:1px;color:var(--accent);font-size:24px;margin:34px 0 10px;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.card b{color:var(--warm)}ol,ul{padding-left:20px;margin:6px 0}a{color:var(--warm)}
+footer{margin-top:44px;font-size:13px;opacity:.8;text-align:center}footer a{color:inherit}
+@media (max-width:560px){.shots{grid-template-columns:1fr}.cta a.btn{width:100%;text-align:center}}
+</style></head><body><main>
+<div class="back"><a href="https://bclark10121-cloud.github.io/">&larr; The Game Shelf</a></div>
+<header><img class="icon" src="icon.png" alt=""><h1>Brickhop</h1><div class="tag">Run, hop and find every secret</div>
+<p class="hook">Run, jump and stomp. Nothing is ever lost.</p>
+<p class="lead">Brickhop is a side-scrolling platformer. Run right, hop the gaps, bump blocks for coins and stomp the walkers. A hit or a fall only costs a few coins. Every level hides a secret pipe, a hidden block and three star coins.</p>
+<div class="cta"><a class="btn primary" href="play/">Play in your browser</a><a class="btn ghost" href="downloads/Brickhop-v0.1.0.apk">Download for Android (APK)</a></div>
+<p class="note">Version 0.1.0. <a href="release-notes/v0.1.0.md">Release notes</a> &middot; <a href="https://github.com/bclark10121-cloud/brickhop/blob/main/BACKLOG.md">Backlog</a></p></header>
+<div class="shots"><a href="shot-1.jpg"><img src="shot-1.jpg" alt="The hero runs under a row of coin blocks in 1-1 Toybox Meadow" width="960" height="540"></a><a href="shot-2.jpg"><img src="shot-2.jpg" alt="Brick rows, a star coin and a down pipe over a gap" width="960" height="540"></a><a href="shot-3.jpg"><img src="shot-3.jpg" alt="The secret room full of coins under the meadow" width="960" height="540"></a></div>
+<h2>What kind of game is this?</h2>
+<div class="grid"><div class="card"><b>Tight jumps.</b> Hold to jump higher. Jumps forgive a press that comes a little early or late.</div><div class="card"><b>Soft fail.</b> No lives and no game over. A hit or a fall costs a few coins, never the level.</div><div class="card"><b>Secrets.</b> Hidden blocks, a secret pipe and three star coins in every level.</div><div class="card"><b>Gray box test.</b> This early build uses plain shapes. The toy art comes next.</div></div>
+<h2>Things to do</h2>
+<ul><li>Run 1-1 Toybox Meadow from the start to the flag and beat your best time.</li><li>Bump coin blocks and find the hidden block.</li><li>Stomp walkers. Find the Sprout block that soaks up one hit.</li><li>Press down on the pipe with arrows to reach the secret room.</li><li>Find all three star coins.</li><li>Pick Breezy, Standard or Classic in Settings.</li></ul>
+<h2>Controls</h2>
+<div class="grid"><div class="card"><b>Keyboard</b><br>Arrows or A and D move. Space, W, Up or Z jumps (hold for higher). Shift or X runs. Down or S goes down a pipe. Esc opens the Menu.</div><div class="card"><b>Xbox controller</b><br>Left stick or D-pad moves. A jumps (hold for higher). X or B runs. Down goes down a pipe. Menu or View opens the Menu. In menus A chooses and B goes back.</div><div class="card"><b>Touch</b><br>Left and right buttons at the bottom left. Jump and Run at the bottom right, Down above them. Menu at the top right.</div></div>
+<h2>Play with an Xbox controller</h2>
+<p>Any Xbox Wireless Controller with Bluetooth works. That is every Series X|S controller and the Xbox One controllers made since 2016. If the plastic around the Xbox button matches the face of the controller, it has Bluetooth. Other controllers that your phone or browser sees as a standard gamepad use the same buttons.</p>
+<div class="grid"><div class="card"><b>On Android</b><ol><li>Hold the Xbox button to turn the controller on.</li><li>Hold the small Pair button on top for 3 seconds, until the Xbox button flashes fast.</li><li>On your phone, open Settings, then Connected devices, then Pair new device.</li><li>Tap Xbox Wireless Controller. The Xbox button stays lit when it is connected.</li><li>Open Brickhop. The touch buttons hide as soon as you use the controller.</li></ol></div><div class="card"><b>In your browser</b><ol><li>Connect the controller to your computer with a USB cable or Bluetooth.</li><li>Open Play in your browser. Chrome, Edge, Firefox and Safari all work.</li><li>Press any button once after the game loads, so the browser sees the controller.</li></ol></div><div class="card"><b>Menus</b><br>The D-pad or left stick moves between buttons. A chooses and B goes back. You can play the whole game with only the controller.</div></div>
+<h2>Install on Android</h2>
+<ol><li>Tap Download for Android on this page.</li><li>Open the file. Allow installs from your browser if your phone asks.</li><li>Tap Install, then Open.</li></ol>
+<p class="note">Android may show a Play Protect notice for apps from outside the Play Store. Version 0.1.0 installs over the last version and keeps your saves.</p>
+<h2>Feedback wanted</h2>
+<ul><li>How the jumping and running feel.</li><li>Whether the level is too easy or too hard.</li><li>Anything that looks wrong, with a screenshot.</li><li>Your phone or browser.</li></ul>
+<footer>Brickhop. Early test build, so expect rough edges. Gray box build. Sounds and music are stand-ins. <a href="https://github.com/bclark10121-cloud/brickhop/blob/main/CREDITS.md">Credits</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="https://bclark10121-cloud.github.io/">More games on The Game Shelf</a></footer>
+</main></body></html>
