@@ -4,6 +4,7 @@ Updated 2026-11-20. BC decides the order.
 
 ## Done
 
+- 0.5.1 Kit movement (2026-11-20): run, jump and fall now come from the shared kit block K1 (kit 1.19.0), with the 0.5.0 numbers as this game's tuning. Same feel: a bot run through 1-1 matched 0.5.0 on every step. No 60 frame cap (kit 1.17.1).
 - 0.5.0 Floating stick and jump feel (2026-11-20): a touch stick that appears under the thumb on the left half replaces the left, right and Down buttons. Movement fixes from a three-agent review: a camera with no smoothing or swing, corner correction, hidden blocks push the hero down, jump height blends from walk to run, foes drawn smoothly, the landing pose lines up, shake only on a hit. Jump retune: a crisp release, no float at the top, a heavier fall, stomp bounces work like a jump, air speed kept. Full screen by default in the browser (kit 1.17.0). TOUCH and LAND checks added.
 - 0.4.2 Higher jumps at 120 frames a second (2026-11-19): the game steps 120 times a second, gravity eases through the top of the jump, jumps go about 4.5 blocks high (5.3 with a running start), a frame rate readout in Tester tools. First game on the new standard G6.20.
 - 0.4.1 Smooth jumps (2026-11-19): fixed the skipped frame at the top of the jump. The hero is drawn between physics steps, so 90 and 120 Hz phones no longer stutter. Letting go of jump slows the climb smoothly instead of stopping it in one step. One air pose through the top of the jump. FEEL check added.
@@ -14,7 +15,7 @@ Updated 2026-11-20. BC decides the order.
 
 ## Now
 
-1. BC's check of 0.5.0 on his phone: the floating stick, the jump and landings, the camera.
+1. BC's check of 0.5.1 on his phone: the floating stick, the jump and landings, the camera. 0.5.1 should feel the same as 0.5.0.
 2. BC picks the next release from the ideas below.
 
 ## Asked for by BC, not built yet
@@ -24,7 +25,7 @@ Updated 2026-11-20. BC decides the order.
 
 1. More foes: a shell foe that slides, a hopping foe, a piranha-style pipe plant (all original).
 2. Coins dropped by a hit bounce out and can be picked back up.
-3. Shared kit block K1 (platformer movement) pulled from this game and Home by Dusk.
+3. Score and best (G4.17, kit `score.gd`): due at a coming release per the studio rollout table.
 4. Level 1-2 to 1-4 and a castle level, once BC says the jumping feels right (G4.13).
 5. LDtk level editor for levels (studio backlog).
 
@@ -38,6 +39,7 @@ None.
 
 ## Decisions from BC
 
+- 2026-11-20, 12:23 PM: "work on the kit sprint first before any new games", then 12:33 PM: "go with your suggestion first" (move Brickhop onto K1). 0.5.1.
 - 2026-11-20, 9:03 AM: "There still are problems jumping ... landing in different spots and skipping a frame" and "change the touch controls so there isnt a left/right and a joystick that is free floating". Then picked "Add retune now" and "Ship v0.5.0 now". 0.5.0.
 - 2026-11-19, 10:24 PM: "jumping still skips a beat and the character need to jump higher, my device is 120 fps" and "that needs to be a standard to support up to 120 fps". 0.4.2 and G6.20.
 - 2026-11-19, 10:16 PM: "jumping itself is good, but it seems to skip a frame at the top of the jump". Fixed in 0.4.1.
