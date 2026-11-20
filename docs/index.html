@@ -10,7 +10,8 @@ main{max-width:880px;margin:0 auto;padding:18px 20px 60px}
 .back{font-size:14px;opacity:.85}.back a{color:inherit;text-decoration:none}.back a:hover{text-decoration:underline}
 header{text-align:center;margin-top:8px;color:#1f2a3a}.back{color:#1f2a3a}
 .icon{width:84px;height:84px;border-radius:20px;box-shadow:0 6px 18px rgba(0,0,0,.25);display:block;margin:6px auto 0}
-h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,8vw,62px);letter-spacing:2px;margin:12px 0 0;color:#c46a3c;line-height:1.1;}
+@font-face{font-family:"GameTitle";src:url(title.woff2) format("woff2");font-display:swap}
+h1{font-family:"GameTitle",Georgia,"Times New Roman",serif;font-size:clamp(38px,8vw,62px);letter-spacing:2px;margin:12px 0 0;color:#c46a3c;line-height:1.1;text-shadow:0 3px 0 #8e4524}
 .tag{letter-spacing:4px;text-transform:uppercase;font-size:12px;opacity:.85;margin:6px 0 4px}
 .hook{font-family:Georgia,"Times New Roman",serif;font-size:20px;color:var(--accent);margin:6px 0 0}
 .lead{font-size:18px;max-width:660px;margin:14px auto 22px;text-wrap:balance}
@@ -32,11 +33,11 @@ footer{margin-top:44px;font-size:13px;opacity:.8;text-align:center}footer a{colo
 <header><img class="icon" src="icon.png" alt=""><h1>Brickhop</h1><div class="tag">Run, hop and find every secret</div>
 <p class="hook">Run, jump and stomp. Nothing is ever lost.</p>
 <p class="lead">Brickhop is a side-scrolling platformer. Run right, hop the gaps, bump blocks for coins and stomp the walkers. A hit or a fall only costs a few coins. Every level hides a secret pipe, a hidden block and three star coins.</p>
-<div class="cta"><a class="btn primary" href="play/">Play in your browser</a><a class="btn ghost" href="downloads/Brickhop-v0.2.0.apk">Download for Android (APK)</a></div>
-<p class="note">Version 0.2.0. <a href="release-notes/v0.2.0.md">Release notes</a> &middot; <a href="https://github.com/bclark10121-cloud/brickhop/blob/main/BACKLOG.md">Backlog</a></p></header>
-<div class="shots"><a href="shot-1.jpg"><img src="shot-1.jpg" alt="The goggles hero under a row of coin blocks in 1-1 Toybox Meadow" width="960" height="540"></a><a href="shot-2.jpg"><img src="shot-2.jpg" alt="The goggles hero by a gap, brick rows, a star coin and a down pipe" width="960" height="540"></a><a href="shot-3.jpg"><img src="shot-3.jpg" alt="The goggles hero in the secret room full of coins" width="960" height="540"></a></div>
+<div class="cta"><a class="btn primary" href="play/">Play in your browser</a><a class="btn ghost" href="downloads/Brickhop-v0.3.0.apk">Download for Android (APK)</a></div>
+<p class="note">Version 0.3.0. <a href="release-notes/v0.3.0.md">Release notes</a> &middot; <a href="https://github.com/bclark10121-cloud/brickhop/blob/main/BACKLOG.md">Backlog</a></p></header>
+<div class="shots"><a href="shot-1.jpg"><img src="shot-1.jpg" alt="The goggles hero and a wind-up beetle on toy grass blocks under coin blocks in the meadow" width="960" height="540"></a><a href="shot-2.jpg"><img src="shot-2.jpg" alt="Toy brick rows, a star coin and a green pipe over a gap in the meadow" width="960" height="540"></a><a href="shot-3.jpg"><img src="shot-3.jpg" alt="The goggles hero in the secret room full of coins" width="960" height="540"></a></div>
 <h2>What kind of game is this?</h2>
-<div class="grid"><div class="card"><b>Tight jumps.</b> Hold to jump higher. Jumps forgive a press that comes a little early or late.</div><div class="card"><b>Soft fail.</b> No lives and no game over. A hit or a fall costs a few coins, never the level.</div><div class="card"><b>Secrets.</b> Hidden blocks, a secret pipe and three star coins in every level.</div><div class="card"><b>Early test build.</b> The hero is in. The blocks, walkers and music are still plain stand-ins.</div></div>
+<div class="grid"><div class="card"><b>Tight jumps.</b> Hold to jump higher. Jumps forgive a press that comes a little early or late.</div><div class="card"><b>Soft fail.</b> No lives and no game over. A hit or a fall costs a few coins, never the level.</div><div class="card"><b>Secrets.</b> Hidden blocks, a secret pipe and three star coins in every level.</div><div class="card"><b>Toy box look.</b> Glossy toy blocks, wind-up beetles and a soft toy meadow, with bouncy music.</div></div>
 <h2>Things to do</h2>
 <ul><li>Run 1-1 Toybox Meadow from the start to the flag and beat your best time.</li><li>Bump coin blocks and find the hidden block.</li><li>Stomp walkers. Find the Sprout block that soaks up one hit.</li><li>Press down on the pipe with arrows to reach the secret room.</li><li>Find all three star coins.</li><li>Pick Breezy, Standard or Classic in Settings.</li></ul>
 <h2>Controls</h2>
@@ -46,8 +47,8 @@ footer{margin-top:44px;font-size:13px;opacity:.8;text-align:center}footer a{colo
 <div class="grid"><div class="card"><b>On Android</b><ol><li>Hold the Xbox button to turn the controller on.</li><li>Hold the small Pair button on top for 3 seconds, until the Xbox button flashes fast.</li><li>On your phone, open Settings, then Connected devices, then Pair new device.</li><li>Tap Xbox Wireless Controller. The Xbox button stays lit when it is connected.</li><li>Open Brickhop. The touch buttons hide as soon as you use the controller.</li></ol></div><div class="card"><b>In your browser</b><ol><li>Connect the controller to your computer with a USB cable or Bluetooth.</li><li>Open Play in your browser. Chrome, Edge, Firefox and Safari all work.</li><li>Press any button once after the game loads, so the browser sees the controller.</li></ol></div><div class="card"><b>Menus</b><br>The D-pad or left stick moves between buttons. A chooses and B goes back. You can play the whole game with only the controller.</div></div>
 <h2>Install on Android</h2>
 <ol><li>Tap Download for Android on this page.</li><li>Open the file. Allow installs from your browser if your phone asks.</li><li>Tap Install, then Open.</li></ol>
-<p class="note">Android may show a Play Protect notice for apps from outside the Play Store. Version 0.2.0 installs over the last version and keeps your saves.</p>
+<p class="note">Android may show a Play Protect notice for apps from outside the Play Store. Version 0.3.0 installs over the last version and keeps your saves.</p>
 <h2>Feedback wanted</h2>
 <ul><li>How the jumping and running feel.</li><li>Whether the level is too easy or too hard.</li><li>Anything that looks wrong, with a screenshot.</li><li>Your phone or browser.</li></ul>
-<footer>Brickhop. Early test build, so expect rough edges. Hero made with Gemini and Meshy. Sounds and music are stand-ins. <a href="https://github.com/bclark10121-cloud/brickhop/blob/main/CREDITS.md">Credits</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="https://bclark10121-cloud.github.io/">More games on The Game Shelf</a></footer>
+<footer>Brickhop. Early test build, so expect rough edges. Music: "Pixelland" and "Carefree" by Kevin MacLeod (incompetech.com, CC BY 4.0), found through Patch.gg. Hero, blocks, beetle and meadow made with Gemini and Meshy. Title font Lilita One (SIL Open Font License). <a href="https://github.com/bclark10121-cloud/brickhop/blob/main/CREDITS.md">Credits</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="https://bclark10121-cloud.github.io/">More games on The Game Shelf</a></footer>
 </main></body></html>
