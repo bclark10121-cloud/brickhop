@@ -4,6 +4,7 @@ Updated 2026-11-19. BC decides the order.
 
 ## Done
 
+- 0.4.1 Smooth jumps (2026-11-19): fixed the skipped frame at the top of the jump. The hero is drawn between physics steps, so 90 and 120 Hz phones no longer stutter. Letting go of jump slows the climb smoothly instead of stopping it in one step. One air pose through the top of the jump. FEEL check added.
 - 0.4.0 Foes and sounds (2026-11-19): the teal pill bug (stomp it into a ball, kick the ball into other foes) and the hopping spring frog, Kenney sounds for jump, coins, stomps, bumps, hurt, pipe and flag, spinning toy coins and a star coin from Gemini.
 - 0.3.0 Look and sound (2026-11-19): toy render blocks, pipes and ground from a Gemini block sheet, the wind-up beetle walker (walk and squashed frames), a toy meadow background that scrolls slower than the level, "Pixelland" on the start screen and "Carefree" in play, the name Brickhop kept and the title font Lilita One on the start screen, game page and Game Shelf.
 - 0.2.0 The hero (2026-11-19): BC's Goggles hero from Gemini and Meshy, rigged with Idle, Run, Jump and Hit motions, rendered side-on into an 17-frame sprite sheet. Idle, run, jump, fall and hit poses in play. The hero bounces on the start screen too.
@@ -35,6 +36,7 @@ None.
 
 ## Decisions from BC
 
+- 2026-11-19, 10:16 PM: "jumping itself is good, but it seems to skip a frame at the top of the jump". Fixed in 0.4.1.
 - 2026-11-19, 10:00 PM: "Continue to the next release": foes, sounds and coin art as 0.4.0.
 - 2026-11-19, 9:47 PM: "go with your suggestions all 3 in 1 release": toy render art, Patch.gg music, keep the name Brickhop and pick the title font (Lilita One).
 - 2026-11-19, 9:24 PM: hero C, Goggles. 9:09 PM: the main character comes through Gemini and Meshy before the MVP.
