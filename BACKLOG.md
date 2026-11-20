@@ -4,6 +4,7 @@ Updated 2026-11-19. BC decides the order.
 
 ## Done
 
+- 0.4.0 Foes and sounds (2026-11-19): the teal pill bug (stomp it into a ball, kick the ball into other foes) and the hopping spring frog, Kenney sounds for jump, coins, stomps, bumps, hurt, pipe and flag, spinning toy coins and a star coin from Gemini.
 - 0.3.0 Look and sound (2026-11-19): toy render blocks, pipes and ground from a Gemini block sheet, the wind-up beetle walker (walk and squashed frames), a toy meadow background that scrolls slower than the level, "Pixelland" on the start screen and "Carefree" in play, the name Brickhop kept and the title font Lilita One on the start screen, game page and Game Shelf.
 - 0.2.0 The hero (2026-11-19): BC's Goggles hero from Gemini and Meshy, rigged with Idle, Run, Jump and Hit motions, rendered side-on into an 17-frame sprite sheet. Idle, run, jump, fall and hit poses in play. The hero bounces on the start screen too.
 - 0.1.0 Gray box (2026-11-19, not shipped yet): 1-1 Toybox Meadow as level data, run and jump with coyote time, jump buffer and variable height, coin blocks, a Sprout block, bricks, a hidden block, coins, three star coins, walkers to stomp, a checkpoint, a secret room through a down pipe, the flag with a best time. Soft fail: hits and falls cost coins. Breezy, Standard and Classic. Run Hold, Toggle or Always. Touch buttons. New start screen scene.
@@ -34,9 +35,8 @@ None.
 
 ## Decisions from BC
 
+- 2026-11-19, 10:00 PM: "Continue to the next release": foes, sounds and coin art as 0.4.0.
 - 2026-11-19, 9:47 PM: "go with your suggestions all 3 in 1 release": toy render art, Patch.gg music, keep the name Brickhop and pick the title font (Lilita One).
 - 2026-11-19, 9:24 PM: hero C, Goggles. 9:09 PM: the main character comes through Gemini and Meshy before the MVP.
 - 2026-11-19, 8:53 PM: start building N21 now (no plan step first), soft fail, clean toy render art.
 
-6. Real block and coin sounds (Kenney or Patch.gg) in place of the starter blips.
-7. Coin and star coin art from the Gemini thread.
